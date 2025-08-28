@@ -1,16 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ern — SysAdmin & DevOps</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Minimalis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section class="hero">
-    <h1>Hi, I’m Enggar Irawan</h1>
-    <p>SysAdmin • Network Engineer • Python Dev</p>
-    <a href="projects.html" class="btn">Lihat Proyek</a>
-  </section>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="pixel-border">
+                    <h1>BLOG.EXE</h1>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="nav-link active">HOME</a></li>
+                    <li><a href="#" class="nav-link">ABOUT</a></li>
+                    <li><a href="#" class="nav-link">POSTS</a></li>
+                    <li><a href="#" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content pixel-border">
+                    <h2 class="hero-title">SELAMAT DATANG DI BLOG SAYA</h2>
+                    <p class="hero-subtitle">Tempat berbagi pikiran dan ide dalam desain minimalis</p>
+                    <div class="hero-decoration">
+                        <div class="pixel-dots">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Posts -->
+            <section class="posts">
+                <h2 class="section-title">POST TERBARU</h2>
+                
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-date">2024.01.15</div>
+                        <div class="post-category">TEKNOLOGI</div>
+                    </div>
+                    <h3 class="post-title">Membangun Website Minimalis dengan HTML & CSS</h3>
+                    <p class="post-excerpt">
+                        Dalam artikel ini, kita akan membahas bagaimana membuat website dengan desain minimalis yang elegan dan fungsional. Desain minimalis tidak hanya tentang kesederhanaan visual...
+                    </p>
+                    <div class="post-footer">
+                        <a href="#" class="read-more">BACA SELENGKAPNYA →</a>
+                        <div class="post-stats">
+                            <span>5 MIN READ</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-date">2024.01.12</div>
+                        <div class="post-category">DESAIN</div>
+                    </div>
+                    <h3 class="post-title">Filosofi Desain Pixel Art dalam Era Digital</h3>
+                    <p class="post-excerpt">
+                        Pixel art bukan hanya tentang nostalgia game retro, tetapi juga tentang presisi dan keterbatasan yang menciptakan keindahan. Mari kita eksplorasi bagaimana prinsip pixel art...
+                    </p>
+                    <div class="post-footer">
+                        <a href="#" class="read-more">BACA SELENGKAPNYA →</a>
+                        <div class="post-stats">
+                            <span>3 MIN READ</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-date">2024.01.08</div>
+                        <div class="post-category">TUTORIAL</div>
+                    </div>
+                    <h3 class="post-title">CSS Grid vs Flexbox: Kapan Menggunakan Yang Mana?</h3>
+                    <p class="post-excerpt">
+                        Dua sistem layout CSS yang paling powerful saat ini adalah Grid dan Flexbox. Meskipun keduanya bisa digunakan untuk layout, mereka memiliki kekuatan masing-masing...
+                    </p>
+                    <div class="post-footer">
+                        <a href="#" class="read-more">BACA SELENGKAPNYA →</a>
+                        <div class="post-stats">
+                            <span>7 MIN READ</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3 class="widget-title">TENTANG SAYA</h3>
+                    <div class="widget-content">
+                        <div class="avatar">
+                            <div class="pixel-avatar">
+                                <div class="pixel-row">
+                                    <span></span><span class="filled"></span><span class="filled"></span><span></span>
+                                </div>
+                                <div class="pixel-row">
+                                    <span class="filled"></span><span></span><span></span><span class="filled"></span>
+                                </div>
+                                <div class="pixel-row">
+                                    <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span>
+                                </div>
+                                <div class="pixel-row">
+                                    <span></span><span class="filled"></span><span class="filled"></span><span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Seorang developer dan desainer yang passionate tentang minimalism dan pixel art. Berbagi pengalaman melalui tulisan.</p>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">KATEGORI</h3>
+                    <div class="widget-content">
+                        <ul class="category-list">
+                            <li><a href="#">TEKNOLOGI <span>(5)</span></a></li>
+                            <li><a href="#">DESAIN <span>(3)</span></a></li>
+                            <li><a href="#">TUTORIAL <span>(8)</span></a></li>
+                            <li><a href="#">PEMIKIRAN <span>(2)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">ARSIP</h3>
+                    <div class="widget-content">
+                        <ul class="archive-list">
+                            <li><a href="#">JANUARI 2024 <span>(3)</span></a></li>
+                            <li><a href="#">DESEMBER 2023 <span>(5)</span></a></li>
+                            <li><a href="#">NOVEMBER 2023 <span>(4)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2024 BLOG.EXE - Dibuat dengan ❤️ dan kode</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link">TWITTER</a>
+                        <a href="#" class="social-link">GITHUB</a>
+                        <a href="#" class="social-link">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
