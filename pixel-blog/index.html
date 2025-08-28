@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixel Blog</title>
+    <meta name="description" content="Blog minimalis hitam-putih bergaya pixel" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Lewati ke Konten</a>
+    <header class="site-header pixel-border">
+      <div class="container header-inner">
+        <a class="logo" href="./">PIXEL BLOG</a>
+        <nav class="site-nav" aria-label="Navigasi utama">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">MENU</button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="./">Home</a></li>
+            <li><a href="./post.html">Contoh Post</a></li>
+            <li><a href="https://example.com" target="_blank" rel="noopener">Tautan</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <section class="intro pixel-card">
+        <h1 class="title">Selamat datang</h1>
+        <p>Blog minimalis dengan palet <strong>hitam</strong> dan <strong>putih</strong>, sentuhan desain pixel.</p>
+      </section>
+
+      <section aria-labelledby="latest" class="posts-grid">
+        <h2 id="latest" class="visually-hidden">Tulisan Terbaru</h2>
+
+        <article class="post-card pixel-card">
+          <header>
+            <h3><a href="./post.html">Menyapa Dunia Pixel</a></h3>
+            <time datetime="2025-01-01" class="meta">1 Jan 2025</time>
+          </header>
+          <p>Eksperimen estetika pixel di web modern, tetap sederhana, fokus pada konten.</p>
+          <a class="btn" href="./post.html" aria-label="Baca: Menyapa Dunia Pixel">Baca »</a>
+        </article>
+
+        <article class="post-card pixel-card">
+          <header>
+            <h3><a href="#">Desain Minimalis: Hitam & Putih</a></h3>
+            <time datetime="2025-02-14" class="meta">14 Feb 2025</time>
+          </header>
+          <p>Kontras tinggi, tipografi tegas, dan elemen kotak membentuk pengalaman yang rapi.</p>
+          <a class="btn" href="#">Baca »</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>© 2025 Pixel Blog • Dibuat dengan cinta dan piksel</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
