@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixel Blog — Hitam Putih</title>
+    <meta name="description" content="Blog minimalis hitam-putih bergaya pixel." />
+    <link rel="icon" href="/workspace/pixel-blog/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/workspace/pixel-blog/css/styles.css" />
+  </head>
+  <body>
+    <div class="site-frame">
+      <header class="site-header">
+        <a class="site-title" href="/workspace/pixel-blog/index.html">PIXEL BLOG</a>
+        <nav class="site-nav">
+          <a href="/workspace/pixel-blog/index.html">Beranda</a>
+          <a href="/workspace/pixel-blog/about.html">Tentang</a>
+          <a href="/workspace/pixel-blog/posts/hello-world.html">Posting Contoh</a>
+        </nav>
+      </header>
+
+      <main class="site-main">
+        <section class="intro card">
+          <h1>Selamat datang</h1>
+          <p>
+            Ini adalah blog minimalis hitam-putih dengan sentuhan pixel. Desain
+            sederhana, tipografi monospace, dan elemen berbatas 1px memberikan
+            nuansa retro yang bersih.
+          </p>
+        </section>
+
+        <section class="post-list">
+          <article class="post card">
+            <h2>
+              <a href="/workspace/pixel-blog/posts/hello-world.html">Halo, Dunia!</a>
+            </h2>
+            <p class="meta">Dipublikasikan: 2025-01-01</p>
+            <p>
+              Postingan contoh untuk memulai. Lihat bagaimana tampilan halaman
+              posting dengan gaya pixel minimalis.
+            </p>
+            <a class="button" href="/workspace/pixel-blog/posts/hello-world.html">Baca selengkapnya</a>
+          </article>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2025 • Dibuat dengan ❤️ dan pixel</p>
+      </footer>
+    </div>
+
+    <script src="/workspace/pixel-blog/js/main.js" defer></script>
+  </body>
+  </html>
+
