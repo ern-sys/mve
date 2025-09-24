@@ -1,1 +1,5 @@
-theme: jekyll-theme-minimal
+title: "Dokumentasi Pekerjaan Enggar Irawan"
+description: "Catatan teknis & proyek"
+baseurl: "/mve"   # ganti kalau repo path berbeda; kosong jika di user.github.io root
+url: "https://ern-sys.github.io"
+theme: minima
